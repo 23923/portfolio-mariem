@@ -155,7 +155,7 @@ function App() {
         <div className="hero-overlay" />
         <div className="hero-inner">
           <div className="hero-content">
-            <p className="eyebrow">Génie logiciel · IA · Web</p>
+            <p className="eyebrow">Génie logiciel </p>
             <h1>Mariem Trabelsi</h1>
             <p className="hero-text">
               Titulaire d'un diplôme en génie logiciel et en informatique décisionnelle,
