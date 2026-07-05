@@ -135,6 +135,9 @@ const associations = [
   "IEEE ENET'Com - membre junior, 2023-2024",
 ];
 
+const emailLink =
+  "https://mail.google.com/mail/?view=cm&fs=1&to=myriam12trabelsi@gmail.com";
+
 function App() {
   return (
     <main>
@@ -175,7 +178,6 @@ function App() {
             </div>
             <div className="portrait-note">
               <span>Software Engineer</span>
-              <p>Web apps · IA conversationnelle · Solutions métier</p>
             </div>
           </div>
         </div>
@@ -183,7 +185,7 @@ function App() {
 
       <section className="quick-info" aria-label="Informations de contact">
         <span><MapPin size={18} /> Sfax, Tunisie</span>
-        <a href="mailto:myriam12trabelsi@gmail.com"><Mail size={18} /> Email</a>
+        <a href={emailLink} target="_blank" rel="noreferrer"><Mail size={18} /> Email</a>
         <a href="tel:+21654665601"><Phone size={18} /> +216 54 665 601</a>
         <a href="https://github.com/23923" target="_blank" rel="noreferrer"><Github size={18} /> GitHub</a>
         <a href="https://linkedin.com/in/trabelsi-mariem-694a4b304" target="_blank" rel="noreferrer"><Linkedin size={18} /> LinkedIn</a>
@@ -279,7 +281,7 @@ function App() {
           <h2>Construisons quelque chose d'utile.</h2>
         </div>
         <div className="footer-actions">
-          <a className="button primary" href="mailto:myriam12trabelsi@gmail.com">
+          <a className="button primary" href={emailLink} target="_blank" rel="noreferrer">
             Me contacter <Mail size={18} />
           </a>
           <a className="button ghost" href="https://github.com/23923" target="_blank" rel="noreferrer">

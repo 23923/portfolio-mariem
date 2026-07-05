@@ -163,11 +163,13 @@ main {
 .portrait-note {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 18px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
   margin-top: 18px;
   padding: 18px 0 0;
   border-top: 1px solid rgba(255, 255, 255, 0.18);
+  text-align: center;
 }
 
 .portrait-note span {
@@ -179,12 +181,12 @@ main {
 }
 
 .portrait-note p {
-  max-width: 220px;
+  max-width: 300px;
   margin: 0;
   color: rgba(255, 255, 255, 0.72);
   font-size: 0.92rem;
   line-height: 1.5;
-  text-align: right;
+  text-align: center;
 }
 
 .eyebrow {
