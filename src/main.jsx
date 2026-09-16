@@ -25,7 +25,7 @@ const experiences = [
     role: "Stage professionnel",
     company: "NauticPro",
     period: "15 juillet - 15 septembre 2026",
-    stack: "Angular 20, Spring Boot 4, PostgreSQL, Scrum, Jira, GitHub, Docker",
+    stack: "Angular 22.1.0, Spring Boot 4.0.0, Java 21, PostgreSQL, Scrum, Jira, GitHub, Docker",
     description:
       "Conception et développement de Marinova, un CRM métier destiné aux chefs d'armement pour organiser et centraliser leur travail. Le principal défi du projet a été l'intégration du paiement en ligne via un fournisseur comme Click to Pay, ainsi que la mise en place de la signature électronique, le tout dans une architecture pensée pour la sécurité des données.",
   },
@@ -76,19 +76,19 @@ const projects = [
     title: "Marinova",
     tag: "CRM métier · NauticPro",
     text: "Projet réalisé dans le cadre d'un stage professionnel chez NauticPro : conception et développement de Marinova, un CRM destiné aux chefs d'armement pour organiser et centraliser leur travail au quotidien. Le principal défi du projet a été l'intégration du paiement en ligne, avec un fournisseur comme Click to Pay, ainsi que la mise en place de la signature électronique pour sécuriser et dématérialiser les échanges. Le projet met en avant des choix technologiques et une architecture modulaire adaptés aux besoins métier, ainsi que des principes de sécurité comme la gestion des accès, la protection des données et la traçabilité des actions. Le travail a été mené avec la méthodologie Scrum, en utilisant Jira pour organiser le backlog, planifier les sprints, suivre les tâches et améliorer la collaboration avec l'équipe.",
-    tools: ["Angular 20", "Spring Boot 4", "PostgreSQL", "CRM", "Paiement en ligne", "Click to Pay", "Signature électronique", "Scrum", "Jira", "GitHub", "Docker"],
+    tools: ["Angular 22.1.0", "Spring Boot 4.0.0", "Java 21", "PostgreSQL", "CRM", "Paiement en ligne", "Click to Pay", "Signature électronique", "Scrum", "Jira", "GitHub", "Docker"],
   },
   {
     title: "Assistant vocal intelligent",
     tag: "IA conversationnelle",
-    text: "Agent vocal pour automatiser la saisie des rapports de visite client à partir d'un message vocal transcrit ou d'un texte saisi. Le système extrait les données utiles, utilise un LLM pour comprendre et structurer le contenu, valide les informations côté backend, puis les insère dans PostgreSQL. Une partie analytique exploite Rasa pour la compréhension des intentions et des entités afin de mieux interpréter les données collectées.",
+    text: "Développement d'un agent vocal intelligent permettant d'automatiser la saisie des rapports de visite client à partir d'un message vocal ou d'un texte. Le système transforme les échanges en données structurées : transcription, compréhension du contenu, extraction des informations pertinentes et validation métier côté backend, avant leur enregistrement dans PostgreSQL. Une couche d'intelligence basée sur un LLM permet d'interpréter les informations exprimées naturellement, tandis que Rasa est utilisée pour l'analyse des intentions et l'extraction des entités afin d'améliorer la compréhension des données collectées. Le défi technique du projet a été de concevoir une chaîne fiable capable de transformer un contenu libre et potentiellement ambigu en données structurées et exploitables, tout en garantissant leur cohérence grâce aux validations backend et en combinant plusieurs technologies d'IA dans un même workflow.",
     tools: ["Django", "Rasa", "Ollama", "Qwen", "PostgreSQL", "Analyse de données"],
   },
   {
     title: "SatisTracker",
     tag: "Application web",
-    text: "Plateforme web dédiée à la gestion et à l'analyse des enquêtes de satisfaction des stages PFE. Le projet remplace les formulaires papier par une solution numérique centralisée qui simplifie la collecte des retours, automatise leur analyse et propose des visualisations claires pour aider les directeurs d'études, responsables de stage, chefs de département et industriels dans la prise de décision. Cette expérience a renforcé le travail full-stack, la modélisation UML, la gestion de projet avec Scrum et l'utilisation d'Azure DevOps.",
-    tools: ["Django", "ReactJS", "PostgreSQL", "ChartJS", "Azure DevOps", "Scrum"],
+    text: "Développement d'une plateforme web dédiée à la gestion et à l'analyse des enquêtes de satisfaction des stages PFE. La solution digitalise un processus auparavant basé sur des formulaires papier en centralisant la collecte des réponses, leur traitement et leur analyse. Elle permet aux directeurs d'études, responsables de stage, chefs de département et industriels de suivre les retours, exploiter les données collectées et visualiser les résultats afin de faciliter l'identification des tendances et l'aide à la prise de décision. Cette expérience m'a permis de renforcer mes compétences en développement full-stack, modélisation UML, gestion de projet Agile/Scrum et utilisation d'Azure DevOps. Le défi technique a consisté à concevoir une solution capable de centraliser des données provenant de différents acteurs, de les structurer pour faciliter leur analyse, et à transformer les résultats des enquêtes en indicateurs et visualisations facilement exploitables.",
+    tools: ["Django", "ReactJS", "PostgreSQL", "ChartJS", "Azure DevOps", "UML", "Agile/Scrum"],
   },
   {
     title: "Gestion comptable",
