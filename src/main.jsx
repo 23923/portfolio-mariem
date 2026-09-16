@@ -22,6 +22,14 @@ import "./styles.css";
 
 const experiences = [
   {
+    role: "Stage professionnel",
+    company: "NauticPro",
+    period: "15 juillet - 15 septembre 2026",
+    stack: "Angular 20, Spring Boot 4, PostgreSQL, Scrum, Jira, GitHub, Docker",
+    description:
+      "Conception et développement de Marinova, un CRM métier destiné aux chefs d'armement pour organiser et centraliser leur travail. Le principal défi du projet a été l'intégration du paiement en ligne via un fournisseur comme Click to Pay, ainsi que la mise en place de la signature électronique, le tout dans une architecture pensée pour la sécurité des données.",
+  },
+  {
     role: "Stage de fin d'études",
     company: "Intellitech",
     period: "Février - Juin 2026",
@@ -64,6 +72,12 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    title: "Marinova",
+    tag: "CRM métier · NauticPro",
+    text: "Projet réalisé dans le cadre d'un stage professionnel chez NauticPro : conception et développement de Marinova, un CRM destiné aux chefs d'armement pour organiser et centraliser leur travail au quotidien. Le principal défi du projet a été l'intégration du paiement en ligne, avec un fournisseur comme Click to Pay, ainsi que la mise en place de la signature électronique pour sécuriser et dématérialiser les échanges. Le projet met en avant des choix technologiques et une architecture modulaire adaptés aux besoins métier, ainsi que des principes de sécurité comme la gestion des accès, la protection des données et la traçabilité des actions. Le travail a été mené avec la méthodologie Scrum, en utilisant Jira pour organiser le backlog, planifier les sprints, suivre les tâches et améliorer la collaboration avec l'équipe.",
+    tools: ["Angular 20", "Spring Boot 4", "PostgreSQL", "CRM", "Paiement en ligne", "Click to Pay", "Signature électronique", "Scrum", "Jira", "GitHub", "Docker"],
+  },
   {
     title: "Assistant vocal intelligent",
     tag: "IA conversationnelle",
@@ -120,7 +134,7 @@ const skills = [
   {
     icon: Workflow,
     title: "Outils & DevOps",
-    items: ["Azure DevOps", "GitLab", "GitHub", "Docker", "Kubernetes", "CI/CD"],
+    items: ["Azure DevOps", "Jira", "GitLab", "GitHub", "Docker", "Kubernetes", "CI/CD", "Scrum"],
   },
 ];
 
